@@ -1,1 +1,2 @@
-# recipe_recommender_system_ft_genai
+# 🥘 Recipe Recommender System ft. GenAI
+
