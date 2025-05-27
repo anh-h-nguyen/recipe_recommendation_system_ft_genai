@@ -1,2 +1,2 @@
-# 🥘 Recipe Recommender System ft. GenAI
+# 🥘 Recipe Recommendation System ft. GenAI
 
