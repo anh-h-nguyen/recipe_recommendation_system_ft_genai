@@ -4,7 +4,7 @@ import streamlit as st
 import openai
 
 # OpenAI API Key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "Insert_here"
 
 # Initialize OpenAI client
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
