@@ -3,9 +3,6 @@ import ast
 import streamlit as st
 import openai
 
-# OpenAI API Key
-OPENAI_API_KEY = "Insert_here"
-
 # Initialize OpenAI client
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 
