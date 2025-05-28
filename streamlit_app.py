@@ -4,10 +4,11 @@ import streamlit as st
 import openai
 import os
 
+# Set OpenAI API key from Streamlit secrets
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
-# Initialize OpenAI client
-client = openai.OpenAI(api_key=OPENAI_API_KEY)
+# Initialize OpenAI client using the API key from environment variables
+client = openai.OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
 # Function to format recipe output properly
 def format_recipe(response_text):
