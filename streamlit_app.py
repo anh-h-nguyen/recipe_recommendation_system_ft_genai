@@ -2,6 +2,7 @@
 import ast
 import streamlit as st
 import openai
+import os
 
 os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
